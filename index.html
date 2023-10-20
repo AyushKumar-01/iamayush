@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="phone.css" />
+  </head>
+  <body>
+    <!-- Top banner  -->
+    <div class="top-banner">
+      <h4 class="top-banner-name">
+        <i class="fa-solid fa-code"></i>&nbsp;AYUSH
+      </h4>
+      <div class="container">
+        <div class="small-bold-text banner-text">
+          Welcome to My Peronal Portfolio Website
+        </div>
+      </div>
+      <img id="my-profile" src="./images/my-profile.jpg" alt="" />
+    </div>
+    <section class="home-section" id="home-section">
+      <!-- Top section with navbar  -->
+      <header class="header">
+        <div class="navbar">
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+          <ul class="nav-items">
+            <li class="nav-links"><a href="#" class="nav-links">Home</a></li>
+            <li class="nav-links">
+              <a href="#projects-section" class="nav-links">Projects</a>
+            </li>
+            <li class="nav-links">
+              <a href="#about-me-section" class="nav-links">About me</a>
+            </li>
+            <li class="nav-links">
+              <a href="#footer-section" class="nav-links">Contact</a>
+            </li>
+          </ul>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </div>
+            <button class="menu-toggle active" id="menuToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+      </header>
+
+      <!-- mid-section  -->
+      <section class="mid-section container">
+        <div class="left-container">
+          <h1 id="intro-heading">
+            Hi, My name is <span id="ayush">Ayush</span>, and I am a
+            <span class="dynamic-text" id="element"></span>
+          </h1>
+        </div>
+        <div class="right-container">
+          <div class="img">
+            <img
+              src="./images/7118756_3426523.svg"
+              alt="sorry, can't load the image right now"
+            />
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Projects section  -->
+
+    <section class="projects-section container" id="projects-section">
+      <h1 id="project-heading">My Projects</h1>
+      <div class="cards-group">
+        <div class="cards">
+          <div class="cards-img-container">
+            <img src="./images/invoke.png" alt="" id="img1" />
+          </div>
+          <h3>1. InvokeDigital Clone</h3>
+          <p class="description">
+            This is a responsive website project solely made by me without any
+            assistance or any kind of help.
+          </p>
+          <a
+            class="github-links github-project-link"
+            href="https://ayushkumar-01.github.io/invokedigitalClone/"
+            target="_blank"
+            >View on Github&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-up-right-from-square"
+            ></i
+          ></a>
+        </div>
+
+        <div class="cards">
+          <div class="cards-img-container">
+            <img src="./images/usability.png" alt="" id="img2" />
+          </div>
+          <h3>2. UsabilityHub clone</h3>
+          <p class="description">
+            This was my one of my initial projects that i followed from YT, a
+            clone of website named as UsabilityHub.
+          </p>
+          <a
+            class="github-links github-project-link"
+            href="https://ayushkumar-01.github.io/usabilityHubclone/"
+            target="_blank"
+            >View on Github&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-up-right-from-square"
+            ></i
+          ></a>
+        </div>
+
+        <div class="cards">
+          <div class="cards-img-container">
+            <img src="./images/calculator.png" alt="" id="img3" />
+          </div>
+          <h3>3. Calculator using JS</h3>
+          <p class="description">
+            This is a simple calculator made using JavaScript, this is not
+            designed properly because my aim was on JS!
+          </p>
+          <a
+            class="github-links github-project-link"
+            href="https://ayushkumar-01.github.io/calculator_javascript/"
+            target="_blank"
+            >View on Github&nbsp;&nbsp;<i
+              class="fa-solid fa-arrow-up-right-from-square"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me Section  -->
+
+    <section class="about-me-section container" id="about-me-section">
+      <h1 id="about-section-heading">About Me</h1>
+      <div class="about-me-left-right-container">
+        <div class="about-left-section">
+          <div class="about-left-img">
+            <img
+              src="./images/profile2.png"
+              alt="sorry, couldn't load the profile picture"
+            />
+          </div>
+        </div>
+        <div class="about-right-section">
+          <div class="about-me-description-container">
+            <h1>Who am I?</h1>
+            <p>
+              Hi, I'm Ayush, a Bachelor of Computer Applications (BCA) student
+              and an avid engineering enthusiast. My journey into computer
+              science began three years ago, and it was a turning point when I
+              started hunting for new skills. My curiosity about how computers
+              work, both hardware and software, led me to explore the vast world
+              of programming. Now, I've gained a solid foundation in various CS
+              skills in general - programming languages.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="about-me-left-right-container"
+        id="about-me-left-right-container-two"
+      >
+        <div class="about-left-section">
+          <div class="about-left-img">
+            <img
+              src="./images/myskills.png"
+              alt="sorry, couldn't load the profile picture"
+            />
+          </div>
+        </div>
+        <div class="about-right-section">
+          <div class="about-me-description-container">
+            <h1>My Skills & Experience</h1>
+            <p>
+              When it comes to programming languages, I started with Python (it
+              was part of my school curriculum), then ventured into HTML, CSS,
+              and the basics of C. The fascinating part of my journey is that I
+              learned all of this on a simple ANDROID mobile phone. My curiosity
+              is my greatest asset. These days, I'm Working with frameworks of
+              JavaScript. I've also learnt the art of using multiple Softwares
+              and AI tools for more better performance and Productivity.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-me-left-right-container">
+        <div class="about-left-section">
+          <div class="about-left-img">
+            <img
+              src="./images/question-mark.jpg"
+              alt="sorry, couldn't load the profile picture"
+            />
+          </div>
+        </div>
+        <div class="about-right-section">
+          <div class="about-me-description-container">
+            <h1>Why hire me?</h1>
+            <p>
+              While the market is filled with talented individuals, what sets me
+              apart is my genuine passion for what I do. I'm driven by a
+              relentless curiosity, a thirst for knowledge, and the ability to
+              adapt to new technologies and skills. In today's fast-paced tech
+              world, adaptation is the key to survival, and I've made it a
+              habit. So, the choice is yours - whether you want a skilled and
+              passionate individual to work on your project.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="certificate-button">
+        <button class="certify-btn" id="certify-btn">
+          View Certificates here &nbsp;<i class="fa-solid fa-medal"></i>&nbsp;<i
+            class="fa-solid fa-angle-down"
+            id="down-arrow-icon"
+          ></i>
+        </button>
+      </div>
+      <div class="certificates" id="certificates">
+        <h1 class="my-certificates-heading">
+          <i class="fa-solid fa-certificate"></i> My Certificates
+        </h1>
+        <div class="certificate-main-container">
+          <div class="certficate-cards">
+            <img
+              class="certificate-img hidden"
+              src="./images/python.png"
+              alt=""
+            />
+            <h4 class="certificate-title">Python</h4>
+          </div>
+          <div class="certficate-cards">
+            <img
+              class="certificate-img hidden"
+              src="./images/javascript.jpg"
+              alt=""
+            />
+            <h4 class="certificate-title">JavaScript</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <h1 id="footer-heading">Let's Get in Touch right now!</h1>
+    <section class="footer-section" id="footer-section">
+      <footer class="footer">
+        <div class="footer-section-one">
+          <h2 class="footer-headers">Contact me</h2>
+          <div class="address">
+            <a
+              href="https://www.google.com/maps/place/New+Delhi,+Delhi/@28.5272527,77.0441743,11z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x52c2b7494e204dce!8m2!3d28.6139391!4d77.2090212!16zL20vMGRsdjA?entry=ttu"
+              class="contact-icon-link"
+              target="_blank"
+              ><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;New Delhi,
+              India</a
+            >
+            <img id="india-flag-icon" src="./images/india.png" alt="" />
+          </div>
+          <h3 class="email-text">
+            <i class="fa-solid fa-envelope e-mail-icon"></i
+            >&nbsp;&nbsp;ak4962237@gmail.com
+          </h3>
+          <a href="#" class="contact-icon-link" target="_blank"
+            ><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;www.iamayush.com</a
+          >
+        </div>
+        <div class="vertical-line"></div>
+        <hr id="horizontal-line">
+        <div class="footer-section-two">
+          <h2 class="footer-headers">&nbsp;Follow me on</h2>
+          <div class="social-media-icons-container">
+            <a
+              href="https://www.instagram.com/iam_ayush3/"
+              class="social-media-links"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://twitter.com/Ayush_kumar_0"
+              class="social-media-links"
+              target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://github.com/AyushKumar-01/"
+              class="social-media-links"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ayush-kumar-438021295/"
+              class="social-media-links"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="vertical-line"></div>
+        <hr id="horizontal-line">
+        <div class="footer-section-three">
+          <h2 class="footer-headers">Quick-Links</h2>
+          <div class="quick-links">
+            <li style="list-style-type: none">
+              <a href="#home-section" class="footer-quick-links"
+                ><i class="fa-solid fa-house"></i>&nbsp;Home</a
+              >
+            </li>
+            <li style="list-style-type: none">
+              <a href="#projects-section" class="footer-quick-links"
+                ><i class="fa-regular fa-folder-open"></i>&nbsp;Projects</a
+              >
+            </li>
+            <li style="list-style-type: none">
+              <a href="#about-me-section" class="footer-quick-links"
+                ><i class="fa-solid fa-user"></i>&nbsp;About me</a
+              >
+            </li>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Bottom Banner  -->
+
+    <div class="bottom-banner">
+      <div class="bottom-banner-container">
+        <div class="bottom-img">
+          <img class="bottom-profile" src="./images/my-profile.jpg" alt="" />
+        </div>
+        <div class="bottom-message">
+          <p class="copyright-message">
+            &nbsp;<i class="fa-solid fa-copyright"></i>&nbsp;2023 &nbsp;
+            www.iamayush.com | All rights reserved
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/eec26219d6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
