@@ -754,11 +754,11 @@ font-size: 2.5rem;
 
 /* Bottom banner  */
 .copyright-message {
-    font-size: 0.69rem;
+    font-size: 0.79rem;
 }
 .bottom-profile {
-    width: 23px;
-    height: 23px;
+    width: 31px;
+    height: 31px;
     border: 0.8px solid #077b07;
     margin-top: 2px;
 }
