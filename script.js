@@ -84,3 +84,6 @@ function hamHref (){
         hamburger.classList.add('closeMenu');
     };
 };
+function login() {
+    window.location.assign('Login.html')
+}
