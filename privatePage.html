@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Space</title>
+    <style>
+      @media screen and (max-width: 480px) {
+        * {
+          margin: 0;
+          padding: 0;
+        }
+        .top-header {
+            display: flex;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .returnHome {
+          position: static;
+          margin: 6px;
+          padding: 7px;
+          border: 0.4px solid black;
+          border-radius: 8px;
+          width: 15%;
+          text-align: center;
+        }
+        h3 {
+          text-align: center;
+        }
+        #section-1 {
+          display: flex;
+          justify-content: center;
+          height: 100%;
+        }
+        .main-grid {
+          display: grid;
+          grid-template-columns: 90px 90px 90px;
+          grid-template-rows: 90px 90px 90px;
+          gap: 5px;
+          margin: 5px;
+          overflow: hidden;
+        }
+        .categories {
+            background-repeat: no-repeat;
+            background-size:auto;
+            width: 90px;
+            height: 90px;
+            padding: 3px;
+        }
+        .categories img {
+            width: 100%;
+            /* gap: 12px; */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-header">
+        <div class="returnHome">
+          <i class="fa-solid fa-house" onclick="returnHome()"><br>Back</i>
+        </div>
+        <div class="heading">
+            <h4>Welcome to your personal Space😶‍🌫️</h4>
+        </div>
+    </div>
+
+    <hr />
+    <section id="section-1">
+      <div class="main-grid">
+        <div class="categories"><img src="/personalImages/dp.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body1.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body2.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body3.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body4.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body5.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body6.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body7.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/body8.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/qutub1.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/qutub2.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/farm.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/deerpark.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/hanumanji.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/bhuli.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/bhuli2.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/selfie.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/katra.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/vaishnodevi.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/wonder.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/talkatora.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/selfie2.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/yamunaji.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/okhla.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/portrait.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/alchemist.jpg" alt="" srcset=""></div>
+        <div class="categories"><img src="/personalImages/kedarkantha.jpg" alt="" srcset=""></div>
+      </div>
+    </section>
+    <hr />
+
+    <script
+      src="https://kit.fontawesome.com/eec26219d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        function returnHome() {
+            window.location.assign('index.html');
+        }
+    </script>
+  </body>
+</html>

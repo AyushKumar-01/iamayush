@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dark Web</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .container2 {
+        position: absolute;
+        left: 40%;
+        top: 20%;
+        border: 2px solid rgb(16, 255, 16);
+        padding: 20px;
+        background-color: rgb(32, 32, 32);
+        text-decoration-color: rgb(16, 255, 16);
+      }
+      .input {
+        width: 200px;
+        height: 40px;
+        font-size: 1.5rem;
+        margin: 8px;
+      }
+      #btn {
+        padding: 4px;
+        margin: 10px;
+        width: 207px;
+      }
+
+      @media screen and (max-width: 480px) {
+        body {
+          background-color: black;
+          background-size: auto;
+        }
+        .container2 {
+          left: 10%;
+          top: 20%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="color: rgb(26, 241, 26)">ADMIN: Ayush Kumar</h3>
+    <div class="container2">
+      <h2 style="color: rgb(26, 241, 26)">Username:</h2>
+      <input id="username" class="input" type="text" style="display: block" />
+      <h2 style="color: rgb(24, 242, 24)">Password:</h2>
+      <input
+        id="password"
+        class="input"
+        type="password"
+        style="display: block"
+      />
+
+      <button id="btn" type="submit" style="display: block" onclick="logIn()">
+        Log in
+      </button>
+    </div>
+
+    <script>
+      function logIn() {
+        var uname = document.getElementById('username').value;
+        var pass = document.getElementById('password').value;
+        if (uname == "iam_ayush3" && pass == "Ayush_123") {
+          window.location.assign("privatePage.html");
+        } else if (uname != "iam_ayush3" && pass == "Ayush_123") {
+          alert("Username entered is not correct!");
+        } else if (uname == "iam_ayush3" && pass != "Ayush_123") {
+          alert("Password is incorrect! Try again or leave the page");
+        } else if (uname != "iam_ayush3" && pass != "Ayush_123") {
+          alert("Both username and passwords are incorrect..!!");
+        }
+      }
+
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+          logIn();
+        }
+      });
+    </script>
+  </body>
+</html>
